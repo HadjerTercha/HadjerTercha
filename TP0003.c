@@ -73,12 +73,15 @@ element* chargerListe(int Tab[], int n) {
 int main() {
     int tab[10] = {1, 3, 5, 7, 8, 10, 9, 11, 13, 20};
     element* L = creerListe();
-    L = chargerListe(tab, 10);    
-    afficherListe(L);    
+    L = chargerListe(tab, 10); 
+    afficherListe(L);   
+    printf("_____________________________________\n")
     L = supprimerEnFin(L);
-    afficherListe(L);    
+    afficherListe(L); 
+    printf("_____________________________________\n")
     L = ajouterEnDebut(L, 40);
-    afficherListe(L);    
+    afficherListe(L); 
+    printf("_____________________________________\n")
     viderListe(L);
     return 0;
 }
