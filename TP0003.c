@@ -75,13 +75,13 @@ int main() {
     element* L = creerListe();
     L = chargerListe(tab, 10); 
     afficherListe(L);   
-    printf("_____________________________________\n")
+    printf("_____________________________________\n");
     L = supprimerEnFin(L);
     afficherListe(L); 
-    printf("_____________________________________\n")
+    printf("_____________________________________\n");
     L = ajouterEnDebut(L, 40);
     afficherListe(L); 
-    printf("_____________________________________\n")
+    printf("_____________________________________\n");
     viderListe(L);
     return 0;
 }
