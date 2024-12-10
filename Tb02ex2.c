@@ -13,7 +13,7 @@ int main() {
     printf("chain est: ");
     scanf("%s", m);
     ch = Longueur(m);
-    printf("taille de chain: %dn",i);
+    printf("taille de chain: %d",i);
 
     return 0;
 }
