@@ -12,8 +12,8 @@ int main() {
     char m[50]; 
     printf("chain est: ");
     scanf("%s", m);
-    Longueur(m);
-    printf("taille de chain: %dn", length);
+    ch = Longueur(m);
+    printf("taille de chain: %dn",i);
 
     return 0;
 }
