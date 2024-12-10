@@ -6,9 +6,7 @@ typedef struct element {
 }element;
 
 element* creerListe() {
-    nouvelement = (element*)malloc(sizeof(element));
-    nouvelement->val = nouvval;
-    nouvelement->suivant = NULL;
+return NULL;
 }
 void afficherListe(element* L) { 
     element* courant = L;
